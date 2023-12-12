@@ -8,7 +8,7 @@
 #include <conio.h>
 #else
 #include <termios.h>
-char getch() {
+int getch() {
     char buf = 0;
     struct termios old = {0};
     fflush(stdout);
