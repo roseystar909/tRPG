@@ -1,0 +1,2 @@
+void startScreen();
+void playerMovement();
