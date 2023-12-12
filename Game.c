@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "header\Extra.h"
-#include "header\Game.h"
-#include "header\TitleScreenMessages.h"
-#include "header\Windows.h"
+#include "header/Extra.h"
+#include "header/Game.h"
+#include "header/TitleScreenMessages.h"
+#include "header/Windows.h"
 
 #define UP 72
 #define DOWN 80

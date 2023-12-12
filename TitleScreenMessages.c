@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "header\TitleScreenMessages.h"
-#include "header\Windows.h"
+#include "header/TitleScreenMessages.h"
+#include "header/Windows.h"
 
 // Function 'printl' prints any text in any place
 void printl(int x, int y, const char *string) {

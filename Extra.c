@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "header\Extra.h"
+#include "header/Extra.h"
 
 // Opens a website in your main browser
 int openWebsite(const char *url) {
