@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "header_\Extra.h"
-#include "header_\Game.h"
-#include "header_\KeyboardInputs.h"
-#include "header_\TitleScreenMessages.h"
-#include "header_\Windows.h"
+#include "header\Extra.h"
+#include "header\Game.h"
+#include "header\KeyboardInputs.h"
+#include "header\TitleScreenMessages.h"
+#include "header\Windows.h"
 
 #define UP 72
 #define DOWN 80
@@ -56,7 +56,6 @@ void selectOption(int currentOption) {
         printl(72, currentOption, " ");
         printl(72, ++currentOption, ">");
 
-<<<<<<< HEAD:keyboardInputs.c
         updateOption(currentOption);
       }
     break;
@@ -78,23 +77,4 @@ void selectOption(int currentOption) {
     break;
     }
   } while(1);
-=======
-				updateOption(currentOption);
-			}
-		break;
-		case CTENTER:	// Dev tool
-			switch (currentOption) {
-				case 2:
-					clearBigWindow();
-					clearSmallWindow();
-					clearSmallerWindow();
-					playerMovement();
-					break;
-				default:
-					break;
-			}
-		break;
-		}
-	} while(1);
->>>>>>> 209e0ce403110f09880bfcd87bfa8bd5d2daaa60:KeyboardInputs.c
 }

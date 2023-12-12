@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "header_\TitleScreenMessages.h"
-#include "header_\Windows.h"
+#include "header\TitleScreenMessages.h"
+#include "header\Windows.h"
 
 #define WINDOW_START 1
 #define WINDOW_WIDTH 120
